@@ -1,0 +1,9 @@
+---
+dist: bionic
+addons:
+  apt:
+    packages:
+      - python3-jsonschema
+
+script:
+  - find targets -type f -exec jsonschema schema.json -i {} \;

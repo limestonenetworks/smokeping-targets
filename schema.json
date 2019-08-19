@@ -1,0 +1,22 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "array",
+    "items": {
+        "type": "object",
+        "required": [
+            "name",
+            "hostname"
+        ],
+        "properties": {
+            "name": {
+                "type": "string",
+                "pattern": "^[-_0-9a-zA-Z]+$"
+            },
+            "probe": { "type": "string" },
+            "menu": { "type": "string" },
+            "title": { "type": "string" },
+            "hostname": { "type": "string" }
+        },
+        "additionalProperties": false
+    }
+}
