@@ -1,7 +1,52 @@
 [
     {
+        "name": "anycast_akamai",
+        "menu": "ANYCAST Akamai (AS20940)",
+        "hostname": "www.akamai.com"
+    },
+    {
+        "name": "anycast_cloudflare",
+        "menu": "ANYCAST Cloudflare (AS13335)",
+        "hostname": "1.1.1.1"
+    },
+    {
+        "name": "anycast_fastly",
+        "menu": "ANYCAST Fastly (AS54113)",
+        "hostname": "www.fastly.com"
+    },
+    {
+        "name": "anycast_google",
+        "menu": "ANYCAST Google (AS15169)",
+        "hostname": "www.google.com"
+    },
+    {
+        "name": "us_digitalocean",
+        "menu": "US DigitalOcean (AS14061)",
+        "hostname": "www.digitalocean.com"
+    },
+    {
+        "name": "us_openstackgit_ping",
+        "menu": "US OpenStack Git",
+        "hostname": "git.openstack.org"
+    },
+    {
+        "name": "us_openstacklsnmirror_ping",
+        "menu": "US OpenStack Limestone Mirror",
+        "hostname": "mirror.regionone.limestone.openstack.org"
+    },
+    {
+        "name": "us_singlehop",
+        "menu": "US SingleHop (AS32475)",
+        "hostname": "www.singlehop.com"
+    },
+    {
         "name": "us_softlayer",
         "menu": "US SoftLayer (AS36351)",
         "hostname": "www.softlayer.com"
+    },
+    {
+        "name": "us_yahoo",
+        "menu": "US Oath/Yahoo (AS36646)",
+        "hostname": "www.yahoo.com"
     }
 ]
