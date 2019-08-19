@@ -6,4 +6,4 @@ addons:
       - python3-jsonschema
 
 script:
-  - find targets -type f -exec jsonschema schema.json -i {} \;
+  - find targets -type f -print0 | xargs -0 -n1 jsonschema schema.json -i
