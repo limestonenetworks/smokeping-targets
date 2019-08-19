@@ -1,6 +1,6 @@
 [
     {
-        "name": "us_softlayer"
+        "name": "us_softlayer",
         "menu": "US SoftLayer (AS36351)",
         "hostname": "www.softlayer.com"
     }
