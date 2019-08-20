@@ -55,6 +55,26 @@
         "hostname": "208.67.220.220"
     },
     {
+        "name": "ca_ovh-bhs",
+        "menu": "CA OVH BHS (AS16276)",
+        "hostname": "bhs.proof.ovh.net"
+    },
+    {
+        "name": "fr_ovh-gra",
+        "menu": "FR OVH GRA (AS16276)",
+        "hostname": "gra.proof.ovh.net"
+    },
+    {
+        "name": "fr_ovh-rbx",
+        "menu": "FR OVH RBX (AS16276)",
+        "hostname": "rbx.proof.ovh.net"
+    },
+    {
+        "name": "fr_ovh-sbg",
+        "menu": "FR OVH SBG (AS16276)",
+        "hostname": "sbg.proof.ovh.net"
+    },
+    {
         "name": "us_digitalocean",
         "menu": "US DigitalOcean (AS14061)",
         "hostname": "www.digitalocean.com"
