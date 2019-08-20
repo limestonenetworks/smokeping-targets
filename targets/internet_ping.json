@@ -6,8 +6,13 @@
     },
     {
         "name": "anycast_cloudflare",
-        "menu": "ANYCAST Cloudflare (AS13335)",
+        "menu": "ANYCAST Cloudflare DNS 1 (AS13335)",
         "hostname": "1.1.1.1"
+    },
+    {
+        "name": "anycast_cloudflare2",
+        "menu": "ANYCAST Cloudflare DNS 2 (AS13335)",
+        "hostname": "1.0.0.1"
     },
     {
         "name": "anycast_fastly",
@@ -18,6 +23,36 @@
         "name": "anycast_google",
         "menu": "ANYCAST Google (AS15169)",
         "hostname": "www.google.com"
+    },
+    {
+        "name": "anycast_googledns1",
+        "menu": "ANYCAST Google DNS 1 (AS15169)",
+        "hostname": "8.8.8.8"
+    },
+    {
+        "name": "anycast_googledns2",
+        "menu": "ANYCAST Google DNS 2 (AS15169)",
+        "hostname": "8.8.4.4"
+    },
+    {
+        "name": "anycast_level3dns1",
+        "menu": "ANYCAST Level3 DNS 1 (AS3356)",
+        "hostname": "4.2.2.1"
+    },
+    {
+        "name": "anycast_level3dns2",
+        "menu": "ANYCAST Level3 DNS 2 (AS3356)",
+        "hostname": "4.2.2.2"
+    },
+    {
+        "name": "anycast_opendns1",
+        "menu": "ANYCAST OpenDNS 1 (AS36692)",
+        "hostname": "208.67.222.222"
+    },
+    {
+        "name": "anycast_opendns2",
+        "menu": "ANYCAST OpenDNS 2 (AS36692)",
+        "hostname": "208.67.220.220"
     },
     {
         "name": "us_digitalocean",
