@@ -55,6 +55,11 @@
         "hostname": "208.67.220.220"
     },
     {
+        "name": "anycast_facebook",
+        "menu": "ANYCAST Facebook (AS32934)",
+        "hostname": "facebook.com"
+    },
+    {
         "name": "ca_ovh-bhs",
         "menu": "CA OVH BHS (AS16276)",
         "hostname": "bhs.proof.ovh.net"
