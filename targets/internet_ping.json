@@ -80,6 +80,56 @@
         "hostname": "sbg.proof.ovh.net"
     },
     {
+        "name": "us_dedipath_atl",
+        "menu": "US DEDIPATH ATL (AS35913)",
+        "hostname": "45.9.15.195"
+    },
+    {
+        "name": "us_dedipath_dal",
+        "menu": "US DEDIPATH DAL (AS35913)",
+        "hostname": "185.161.69.26"
+    },
+    {
+        "name": "us_dedipath_den",
+        "menu": "US DEDIPATH DEN (AS35913)",
+        "hostname": "172.81.40.35"
+    },
+    {
+        "name": "us_dedipath_jax",
+        "menu": "US DEDIPATH JAX (AS35913)",
+        "hostname": "140.99.234.178"
+    },
+    {
+        "name": "us_dedipath_las",
+        "menu": "US DEDIPATH LAS (AS35913)",
+        "hostname": "86.38.218.202"
+    },
+    {
+        "name": "us_dedipath_lax",
+        "menu": "US DEDIPATH LAX (AS35913)",
+        "hostname": "140.99.154.106"
+    },
+    {
+        "name": "us_dedipath_nyj",
+        "menu": "US DEDIPATH NYJ (AS35913)",
+        "hostname": "172.81.42.54"
+    },
+    {
+        "name": "us_dedipath_phx",
+        "menu": "US DEDIPATH PHX (AS35913)",
+        "hostname": "69.25.116.107"
+    },
+    {
+        "name": "us_dedipath_sef",
+        "menu": "US DEDIPATH SEF (AS35913)",
+        "hostname": "69.25.117.188"
+    },
+    {
+        "name": "us_dedipath_sje",
+        "menu": "US DEDIPATH SJE (AS35913)",
+        "hostname": "74.217.183.180"
+    },
+    {
         "name": "us_digitalocean",
         "menu": "US DigitalOcean (AS14061)",
         "hostname": "www.digitalocean.com"
