@@ -15,6 +15,11 @@
         "hostname": "1.0.0.1"
     },
     {
+        "name": "anycast_cosmicguard",
+        "menu": "ANYCAST Cosmic Guard (AS30456)",
+        "hostname": "cosmic.global"
+    },
+    {
         "name": "anycast_fastly",
         "menu": "ANYCAST Fastly (AS54113)",
         "hostname": "www.fastly.com"
@@ -55,6 +60,11 @@
         "hostname": "208.67.220.220"
     },
     {
+        "name": "anycast_pathnetwork",
+        "menu": "ANYCAST Path Network (AS396998)",
+        "hostname": "path.net"
+    },
+    {
         "name": "anycast_facebook",
         "menu": "ANYCAST Facebook (AS32934)",
         "hostname": "facebook.com"
@@ -78,11 +88,6 @@
         "name": "fr_ovh-sbg",
         "menu": "FR OVH SBG (AS16276)",
         "hostname": "sbg.proof.ovh.net"
-    },
-    {
-        "name": "us_cosmicguard",
-        "menu": "US Cosmic Guard (AS30456)",
-        "hostname": "cosmic.global"
     },
     {
         "name": "us_digitalocean",
