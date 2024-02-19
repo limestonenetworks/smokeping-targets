@@ -80,6 +80,11 @@
         "hostname": "sbg.proof.ovh.net"
     },
     {
+        "name": "us_cosmicguard",
+        "menu": "US Cosmic Guard (AS30456)",
+        "hostname": "cosmic.global"
+    },
+    {
         "name": "us_digitalocean",
         "menu": "US DigitalOcean (AS14061)",
         "hostname": "www.digitalocean.com"
