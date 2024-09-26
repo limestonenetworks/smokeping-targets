@@ -100,6 +100,11 @@
         "hostname": "git.openstack.org"
     },
     {
+        "name": "us_openstacklsnmirror_ping",
+        "menu": "US OpenStack Limestone Mirror",
+        "hostname": "mirror.regionone.limestone.openstack.org"
+    },
+    {
         "name": "us_singlehop",
         "menu": "US SingleHop (AS32475)",
         "hostname": "www.singlehop.com"
@@ -113,131 +118,5 @@
         "name": "us_yahoo",
         "menu": "US Oath/Yahoo (AS36646)",
         "hostname": "www.yahoo.com"
-    },
-    {
-        "name": "gcp",
-        "menu": "Google Cloud (AS15169)",
-        "targets": [
-            {
-                "name": "gcp_australia-southeast1",
-                "menu": "AU GCP Sydney australia-southeast1 (AS15169)",
-                "hostname": "australia-southeast1-run.googleapis.com"
-            },
-            {
-                "name": "gcp_australia-southeast2",
-                "menu": "AU GCP Melbourne australia-southeast2 (AS15169)",
-                "hostname": "australia-southeast2-run.googleapis.com"
-            },
-            {
-                "name": "gcp_europe-west1",
-                "menu": "BE GCP Belgium europe-west1 (AS15169)",
-                "hostname": "europe-west1-run.googleapis.com"
-            },
-            {
-                "name": "gcp_southamerica-east1",
-                "menu": "BR GCP Sao Paulo southamerica-east1 (AS15169)",
-                "hostname": "southamerica-east1-run.googleapis.com"
-            },
-            {
-                "name": "gcp_northamerica-northeast1",
-                "menu": "CA GCP Montreal northamerica-northeast1 (AS15169)",
-                "hostname": "northamerica-northeast1-run.googleapis.com"
-            },
-            {
-                "name": "gcp_europe-west10",
-                "menu": "DE GCP Berlin europe-west10 (AS15169)",
-                "hostname": "europe-west10-run.googleapis.com"
-            },
-            {
-                "name": "gcp_europe-west3",
-                "menu": "DE GCP Frankfurt europe-west3 (AS15169)",
-                "hostname": "europe-west3-run.googleapis.com"
-            },
-            {
-                "name": "gcp_europe-north1",
-                "menu": "FI GCP Finland europe-north1 (AS15169)",
-                "hostname": "europe-north1-run.googleapis.com"
-            },
-            {
-                "name": "gcp_asia-east2",
-                "menu": "HK GCP Hong Kong asia-east2 (AS15169)",
-                "hostname": "asia-east2-run.googleapis.com"
-            },
-            {
-                "name": "gcp_asia-southeast2",
-                "menu": "ID GCP Jakarta asia-southeast2 (AS15169)",
-                "hostname": "asia-southeast2-run.googleapis.com"
-            },
-            {
-                "name": "gcp_asia-south1",
-                "menu": "IN GCP Mumbai asia-south1 (AS15169)",
-                "hostname": "asia-south1-run.googleapis.com"
-            },
-            {
-                "name": "gcp_asia-northeast2",
-                "menu": "JP GCP Osaka asia-northeast2 (AS15169)",
-                "hostname": "asia-northeast2-run.googleapis.com"
-            },
-            {
-                "name": "gcp_asia-northeast1",
-                "menu": "JP GCP Tokyo asia-northeast1 (AS15169)",
-                "hostname": "asia-northeast1-run.googleapis.com"
-            },
-            {
-                "name": "gcp_asia-northeast3",
-                "menu": "KR GCP Seoul asia-northeast3 (AS15169)",
-                "hostname": "asia-northeast3-run.googleapis.com"
-            },
-            {
-                "name": "gcp_europe-west4",
-                "menu": "NL GCP Netherlands europe-west4 (AS15169)",
-                "hostname": "europe-west4-run.googleapis.com"
-            },
-            {
-                "name": "gcp_europe-central2",
-                "menu": "PL GCP Warsaw europe-central2 (AS15169)",
-                "hostname": "europe-central2-run.googleapis.com"
-            },
-            {
-                "name": "gcp_asia-southeast1",
-                "menu": "SG GCP Singapore asia-southeast1 (AS15169)",
-                "hostname": "asia-southeast1-run.googleapis.com"
-            },
-            {
-                "name": "gcp_asia-east1",
-                "menu": "TW GCP Taiwan asia-east1 (AS15169)",
-                "hostname": "asia-east1-run.googleapis.com"
-            },
-            {
-                "name": "gcp_europe-west2",
-                "menu": "UK GCP London europe-west2 (AS15169)",
-                "hostname": "europe-west2-run.googleapis.com"
-            },
-            {
-                "name": "gcp_us-central1",
-                "menu": "US GCP Iowa us-central1 (AS15169)",
-                "hostname": "us-central1-run.googleapis.com"
-            },
-            {
-                "name": "gcp_us-east4",
-                "menu": "US GCP NoVA us-east4 (AS15169)",
-                "hostname": "us-east4-run.googleapis.com"
-            },
-            {
-                "name": "gcp_us-west2",
-                "menu": "US GCP Los Angeles us-west2 (AS15169)",
-                "hostname": "us-west2-run.googleapis.com"
-            },
-            {
-                "name": "gcp_us-west3",
-                "menu": "US GCP Salt Lake City us-west3 (AS15169)",
-                "hostname": "us-west3-run.googleapis.com"
-            },
-            {
-                "name": "gcp_us-west4",
-                "menu": "US GCP Las Vegas us-west4 (AS15169)",
-                "hostname": "us-west4-run.googleapis.com"
-            }
-        ]
     }
 ]
