@@ -100,11 +100,6 @@
         "hostname": "git.openstack.org"
     },
     {
-        "name": "us_openstacklsnmirror_ping",
-        "menu": "US OpenStack Limestone Mirror",
-        "hostname": "mirror.regionone.limestone.openstack.org"
-    },
-    {
         "name": "us_singlehop",
         "menu": "US SingleHop (AS32475)",
         "hostname": "www.singlehop.com"
@@ -118,5 +113,105 @@
         "name": "us_yahoo",
         "menu": "US Oath/Yahoo (AS36646)",
         "hostname": "www.yahoo.com"
+    },
+    {
+        "name": "aws",
+        "menu": "AWS Amazon Web Services (AS16509)",
+        "targets": [
+            { "name": "af-south-1-1", "menu": "af-south-1 (Cape Town)", "hostname": "13.245.0.253" },
+            { "name": "af-south-1-2", "menu": "af-south-1 (Cape Town)", "hostname": "13.247.0.0" },
+
+            { "name": "ap-east-1-1", "menu": "ap-east-1 (Hong Kong)", "hostname": "16.162.0.253" },
+            { "name": "ap-east-1-2", "menu": "ap-east-1 (Hong Kong)", "hostname": "18.162.80.8" },
+
+            { "name": "ap-northeast-1-1", "menu": "ap-northeast-1 (Tokyo)", "hostname": "3.112.0.0" },
+            { "name": "ap-northeast-1-2", "menu": "ap-northeast-1 (Tokyo)", "hostname": "46.51.255.254" },
+            { "name": "ap-northeast-1-3", "menu": "ap-northeast-1 (Tokyo)", "hostname": "175.41.248.202" },
+
+            { "name": "ap-northeast-2-1", "menu": "ap-northeast-2 (Seoul)", "hostname": "3.34.0.0" },
+            { "name": "ap-northeast-2-2", "menu": "ap-northeast-2 (Seoul)", "hostname": "43.200.0.0" },
+
+            { "name": "ap-northeast-3-1", "menu": "ap-northeast-3 (Osaka)", "hostname": "13.208.32.253" },
+            { "name": "ap-northeast-3-2", "menu": "ap-northeast-3 (Osaka)", "hostname": "56.155.0.0" },
+
+            { "name": "ap-south-1-1", "menu": "ap-south-1 (Mumbai)", "hostname": "3.6.0.0" },
+            { "name": "ap-south-1-2", "menu": "ap-south-1 (Mumbai)", "hostname": "43.204.0.0" },
+
+            { "name": "ap-south-2-1", "menu": "ap-south-2 (Hyderabad)", "hostname": "18.60.8.120" },
+
+            { "name": "ap-southeast-1-1", "menu": "ap-southeast-1 (Singapore)", "hostname": "3.0.0.9" },
+            { "name": "ap-southeast-1-2", "menu": "ap-southeast-1 (Singapore)", "hostname": "46.51.216.14" },
+            { "name": "ap-southeast-1-3", "menu": "ap-southeast-1 (Singapore)", "hostname": "54.251.63.255" },
+
+            { "name": "ap-southeast-2-1", "menu": "ap-southeast-2 (Sydney)", "hostname": "3.24.0.0" },
+            { "name": "ap-southeast-2-2", "menu": "ap-southeast-2 (Sydney)", "hostname": "54.66.0.2" },
+
+            { "name": "ap-southeast-3-1", "menu": "ap-southeast-3 (Jakarta)", "hostname": "108.136.157.181" },
+
+            { "name": "ap-southeast-4-1", "menu": "ap-southeast-4 (Melbourne)", "hostname": "16.26.0.0" },
+
+            { "name": "ap-southeast-5-1", "menu": "ap-southeast-5 (Malaysia)", "hostname": "43.216.149.220" },
+
+            { "name": "ca-central-1-1", "menu": "ca-central-1 (Canada (Central))", "hostname": "3.96.0.0" },
+
+            { "name": "ca-west-1-1", "menu": "ca-west-1 (Calgary)", "hostname": "40.176.100.29" },
+
+            { "name": "cn-north-1-1", "menu": "cn-north-1 (Beijing)", "hostname": "43.196.0.253" },
+            { "name": "cn-north-1-2", "menu": "cn-north-1 (Beijing)", "hostname": "54.222.240.4" },
+
+            { "name": "cn-northwest-1-1", "menu": "cn-northwest-1 (Ningxia)", "hostname": "43.192.0.113" },
+            { "name": "cn-northwest-1-2", "menu": "cn-northwest-1 (Ningxia)", "hostname": "68.79.0.253" },
+
+            { "name": "eu-central-1-1", "menu": "eu-central-1 (Frankfurt)", "hostname": "3.64.0.0" },
+            { "name": "eu-central-1-2", "menu": "eu-central-1 (Frankfurt)", "hostname": "18.153.7.254" },
+            { "name": "eu-central-1-3", "menu": "eu-central-1 (Frankfurt)", "hostname": "54.93.32.2" },
+
+            { "name": "eu-central-2-1", "menu": "eu-central-2 (Zurich)", "hostname": "16.62.132.214" },
+
+            { "name": "eu-north-1-1", "menu": "eu-north-1 (Stockholm)", "hostname": "13.48.0.0" },
+            { "name": "eu-north-1-2", "menu": "eu-north-1 (Stockholm)", "hostname": "16.170.0.0" },
+            { "name": "eu-north-1-3", "menu": "eu-north-1 (Stockholm)", "hostname": "63.246.112.254" },
+
+            { "name": "eu-south-1-1", "menu": "eu-south-1 (Milan)", "hostname": "15.160.0.0" },
+            { "name": "eu-south-1-2", "menu": "eu-south-1 (Milan)", "hostname": "35.152.128.254" },
+
+            { "name": "eu-south-2-1", "menu": "eu-south-2 (Spain)", "hostname": "18.100.135.187" },
+
+            { "name": "eu-west-1-1", "menu": "eu-west-1 (Ireland)", "hostname": "3.248.0.0" },
+            { "name": "eu-west-1-2", "menu": "eu-west-1 (Ireland)", "hostname": "46.51.178.50" },
+            { "name": "eu-west-1-3", "menu": "eu-west-1 (Ireland)", "hostname": "185.48.120.66" },
+
+            { "name": "eu-west-2-1", "menu": "eu-west-2 (London)", "hostname": "3.8.0.0" },
+            { "name": "eu-west-2-2", "menu": "eu-west-2 (London)", "hostname": "18.175.28.254" },
+            { "name": "eu-west-2-3", "menu": "eu-west-2 (London)", "hostname": "52.56.34.0" },
+
+            { "name": "eu-west-3-1", "menu": "eu-west-3 (Paris)", "hostname": "13.36.0.0" },
+            { "name": "eu-west-3-2", "menu": "eu-west-3 (Paris)", "hostname": "35.180.0.253" },
+            { "name": "eu-west-3-3", "menu": "eu-west-3 (Paris)", "hostname": "52.47.32.127" },
+
+            { "name": "il-central-1-1", "menu": "il-central-1 (Israel)", "hostname": "51.16.235.176" },
+
+            { "name": "me-central-1-1", "menu": "me-central-1 (UAE)", "hostname": "3.28.180.35" },
+            { "name": "me-central-1-2", "menu": "me-central-1 (UAE)", "hostname": "51.112.0.0" },
+
+            { "name": "me-south-1-1", "menu": "me-south-1 (Bahrain)", "hostname": "15.184.0.253" },
+            { "name": "me-south-1-2", "menu": "me-south-1 (Bahrain)", "hostname": "15.185.32.254" },
+
+            { "name": "sa-east-1-1", "menu": "sa-east-1 (São Paulo)", "hostname": "54.94.0.66" },
+
+            { "name": "us-east-1-1", "menu": "us-east-1 (N. Virginia)", "hostname": "3.80.0.0" },
+            { "name": "us-east-1-2", "menu": "us-east-1 (N. Virginia)", "hostname": "67.202.0.5" },
+            { "name": "us-east-1-3", "menu": "us-east-1 (N. Virginia)", "hostname": "72.44.32.8" },
+
+            { "name": "us-east-2-1", "menu": "us-east-2 (Ohio)", "hostname": "3.130.0.254" },
+            { "name": "us-east-2-2", "menu": "us-east-2 (Ohio)", "hostname": "3.144.0.0" },
+
+            { "name": "us-west-1-1", "menu": "us-west-1 (N. California)", "hostname": "18.144.0.254" },
+            { "name": "us-west-1-2", "menu": "us-west-1 (N. California)", "hostname": "54.67.128.0" },
+            { "name": "us-west-1-3", "menu": "us-west-1 (N. California)", "hostname": "204.236.129.206" },
+
+            { "name": "us-west-2-1", "menu": "us-west-2 (Oregon)", "hostname": "44.224.0.0" },
+            { "name": "us-west-2-2", "menu": "us-west-2 (Oregon)", "hostname": "54.218.4.254" }
+        ]
     }
 ]
